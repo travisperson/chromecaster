@@ -66,7 +66,7 @@ if(argv.help) {
 						input: process.stdin,
 						output: process.stdout,
 						completer: function(line) {
-							compleitions = commands.split(' ')
+							completions = commands.split(' ')
 							var hits = completions.filter(function(c) { return c.indexOf(line) == 0 })
 							return [hits.length ? hits : completions, line]
 						}
