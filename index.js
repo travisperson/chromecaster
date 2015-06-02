@@ -38,7 +38,7 @@ if(argv.help) {
 	chromecasts().on('update', function (player) {
 		if(player.name == argv.cast) {
 			var server = http.createServer(function(req, res) {
-				var stream = fs.createReadStream(__dirname + '/' + argv._[0]);
+				var stream = fs.createReadStream(argv._[0]);
 				stream.pipe(res)
 			});
 
