@@ -4,13 +4,13 @@ Chromecast Player
 Currently only supports mp4.
 
 ```
-npm install -g chromecast-player
+npm install -g chromecaster
 ```
 
 ```
-$ chromecast-player --players
+$ chromecaster --players
 ```
 
 ```
-$ chromecast-player --cast "Living Room" myvideo.mp4
+$ chromecaster --cast "Living Room" myvideo.mp4
 ```
