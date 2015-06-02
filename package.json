@@ -1,0 +1,29 @@
+{
+  "name": "chromecaster",
+  "version": "1.0.0",
+  "description": "Cast videos to your chromecast from your command line.",
+  "main": "index.js",
+  "bin": {
+    "chromecaster": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/travisperson/chromecaster"
+  },
+  "keywords": [
+    "chromecast"
+  ],
+  "author": "Travis Person <travis.person@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travisperson/chromecaster/issues"
+  },
+  "homepage": "https://github.com/travisperson/chromecasater",
+  "dependencies": {
+    "chromecasts": "^1.5.0",
+    "minimist": "^1.1.1"
+  }
+}
